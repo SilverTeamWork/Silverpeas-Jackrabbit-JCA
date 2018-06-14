@@ -204,6 +204,22 @@
           <groupId>org.apache.httpcomponents</groupId>
           <artifactId>httpcore</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>edu.ucar</groupId>
+          <artifactId>grib</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>edu.ucar</groupId>
+          <artifactId>netcdf4</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>edu.ucar</groupId>
+          <artifactId>cdm</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>edu.ucar</groupId>
+          <artifactId>httpservices</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
